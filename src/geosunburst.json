@@ -1,0 +1,1100 @@
+{
+ "name": "GEOGRIA EVENTS",
+ "GoldsteinScale":   0,
+ "size":62924,
+ "children": [
+{
+ "name": "MAKE PUBLIC STATEMENT",
+"GoldsteinScale":   0.47,
+"size":   8630,
+"children": [
+ {
+ "name": "Make statement, not specified below",
+"size":   4972,
+"GoldsteinScale": 0.031484 
+},
+{
+ "name": "Decline comment", 
+"size":     41,
+"GoldsteinScale": -0.050332 
+},
+{
+ "name": "Make pessimistic comment",
+ "size":    553,
+"GoldsteinScale": -0.38711 
+},
+{
+ "name": "Make optimistic comment",
+"size":   1941,
+"GoldsteinScale": 0.44399 
+},
+{
+ "name": "Consider policy option",
+"size":    286,
+"GoldsteinScale": 0.04473 
+},
+{
+ "name":  "Acknowledge or claim responsibility",
+"size":     81,
+"GoldsteinScale": 0.032924 
+},
+{
+ "name": "Deny responsibility",
+"size":    215,
+"GoldsteinScale": -1.9594 
+},
+{
+ "name": "Engage in symbolic act",
+"size":    362,
+"GoldsteinScale": 0.039015 
+},
+{
+ "name": "Make empathetic comment",
+"size":    163,
+"GoldsteinScale": 3.4322 
+},
+{
+ "name": "Express accord",
+"size":     16,
+"GoldsteinScale": 3.4372 
+} 
+] 
+},
+{
+ "name": "APPEAL",
+"GoldsteinScale": 2.4389,
+"size":   2869,
+"children": [
+ {
+ "name": [ "Appeal, not specified below", "USE UNCONVENTIONAL MASS VIOLENCE" ],
+"size":   1762,
+"GoldsteinScale": 3.0261 
+},
+{
+ "name": "Appeal for material cooperation, not specified below",
+"size":      7,
+"GoldsteinScale": 3.4141 
+},
+{
+ "name": "Appeal for diplomatic cooperation, such as policy support",
+"size":     33,
+"GoldsteinScale": 3.2324 
+},
+{
+ "name": "Appeal for aid, not specified below",
+"size":     26,
+"GoldsteinScale":   3.43 
+},
+{
+ "name": "Appeal for political reform, not specified below",
+"size":      3,
+"GoldsteinScale": -0.25661 
+},
+{
+ "name": "Appeal to yield",
+"size":     88,
+"GoldsteinScale": -0.25152 
+},
+{
+ "name": "Appeal to others to meet or negotiate",
+"size":    655,
+"GoldsteinScale": 4.0073 
+},
+{
+ "name": "Appeal to others to settle dispute",
+"size":     38,
+"GoldsteinScale": 4.0384 
+},
+{
+ "name": "Appeal to others to engage in or accept mediation",
+"size":     14,
+"GoldsteinScale": 4.0225 
+},
+{
+ "name": "Appeal for economic cooperation",
+"size":      7,
+"GoldsteinScale": 3.4245 
+},
+{
+ "name": "Appeal for judicial cooperation",
+"size":      9,
+"GoldsteinScale": 3.4303 
+},
+{
+ "name": "Appeal for intelligence",
+"size":     19,
+"GoldsteinScale": 3.4265 
+},
+{
+ "name": "Appeal for economic aid",
+"size":      1,
+"GoldsteinScale": 3.4097 
+},
+{
+ "name": "Appeal for humanitarian aid",
+"size":     19,
+"GoldsteinScale": 3.4341 
+},
+{
+ "name": "Appeal for military protection or peacekeeping",
+"size":     58,
+"GoldsteinScale": 3.4341 
+},
+{
+ "name": "Appeal for change in leadership",
+"size":     89,
+"GoldsteinScale": -0.2918 
+},
+{
+ "name": "Appeal for release of persons or property",
+"size":      3,
+"GoldsteinScale": -0.29312 
+},
+{
+ "name": "Appeal for de-escalation of military engagement",
+"size":     38,
+"GoldsteinScale": -0.26164 
+} 
+] 
+},
+{
+ "name": "EXPRESS INTENT TO COOPERATE",
+"GoldsteinScale": 5.7571,
+"size":   6497,
+"children": [
+ {
+ "name": "Express intent to cooperate, not specified below",
+"size":    798,
+"GoldsteinScale": 4.0027 
+},
+{
+ "name": "Express intent to engage in material cooperation,  not specified below",
+"size":     49,
+"GoldsteinScale": 5.2286 
+},
+{
+ "name": "Express intent to provide diplomatic cooperation such as policy support",
+"size":     72,
+"GoldsteinScale": 4.5142 
+},
+{
+ "name": "Express intent to provide matyerial aid, not specified below",
+"size":     53,
+"GoldsteinScale": 5.2383 
+},
+{
+ "name": "Express intent to institute political reform, not specified below",
+"size":      3,
+"GoldsteinScale": 7.0437 
+},
+{
+ "name": "Express intent to yield, not specified below",
+"size":     16,
+"GoldsteinScale": 7.0235 
+},
+{
+ "name": "Express intent to meet or negotiate",
+"size":   5193,
+"GoldsteinScale": 4.0319 
+},
+{
+ "name": "Express intent to settle dispute",
+"size":     32,
+"GoldsteinScale": 5.0498 
+},
+{
+ "name": "Express intent to accept mediation",
+"size":     11,
+"GoldsteinScale": 7.0198 
+},
+{
+ "name": "Express intent to mediate",
+"size":     20,
+"GoldsteinScale": 5.0034 
+},
+{
+ "name": "Express intent to cooperate economically",
+"size":     66,
+"GoldsteinScale": 5.2006 
+},
+{
+ "name": "Express intent to cooperate militarily",
+"size":      9,
+"GoldsteinScale": 5.2217 
+},
+{
+ "name": "Express intent to provide economic aid",
+"size":      9,
+"GoldsteinScale": 5.2287 
+},
+{
+ "name": "Express intent to provide military aid",
+"size":     33,
+"GoldsteinScale": 5.2454 
+},
+{
+ "name": "Express intent to provide humanitarian aid",
+"size":      3,
+"GoldsteinScale": 5.2262 
+},
+{
+ "name": "Express intent to provide military protection or peacekeeping",
+"size":     25,
+"GoldsteinScale": 6.0394 
+},
+{
+ "name": "Express intent to change leadership",
+"size":      5,
+"GoldsteinScale": 7.0377 
+},
+{
+ "name": "Express intent to change institutions, regime",
+"size":      1,
+"GoldsteinScale": 7.0185 
+},
+{
+ "name": "Express intent to release persons or property",
+"size":     40,
+"GoldsteinScale": 7.0006 
+},
+{
+ "name": "Express intent allow international involvement (not mediation)",
+"size":      1,
+"GoldsteinScale": 7.0231 
+},
+{
+ "name": "Express intent to de-escalate military engagement ",
+"size":     58,
+"GoldsteinScale": 7.0455 
+} 
+] 
+},
+{
+ "name": "CONSULT",
+"GoldsteinScale": 3.0286,
+"size":  23803,
+"children": [
+ {
+ "name": "Consult, not specified below",
+"size":   9252,
+"GoldsteinScale": 1.0241 
+},
+{
+ "name": "Discuss by telephone",
+"size":    396,
+"GoldsteinScale": 1.0384 
+},
+{
+ "name": "Make a visit",
+"size":   4873,
+"GoldsteinScale": 1.9048 
+},
+{
+ "name": "Host a visit",
+"size":   4421,
+"GoldsteinScale": 2.8475 
+},
+{
+ "name": "Meet at a location",
+"size":     96,
+"GoldsteinScale":  2.516 
+},
+{
+ "name": "Mediate",
+"size":     82,
+"GoldsteinScale":  5.023 
+},
+{
+ "name": "Engage in negotiation",
+"size":   4683,
+"GoldsteinScale": 7.0329 
+} 
+] 
+},
+{
+ "name": "ENGAGE IN DIPLOMATIC COOPERATION",
+"GoldsteinScale":  5.275,
+"size":   4673,
+"children": [
+ {
+ "name": "Engage in diplomatic cooperation, not specified below",
+"size":    701,
+"GoldsteinScale": 3.5174 
+},
+{
+ "name": "Praise or endorse",
+"size":   2510,
+"GoldsteinScale": 3.4201 
+},
+{
+ "name": "Defend verbally",
+"size":     21,
+"GoldsteinScale": 3.5128 
+},
+{
+ "name": "Rally support on behalf of",
+"size":      6,
+"GoldsteinScale": 3.8342 
+},
+{
+ "name": "Grant diplomatic recognition",
+"size":    109,
+"GoldsteinScale": 6.0225 
+},
+{
+ "name": "Apologize",
+"size":     33,
+"GoldsteinScale": 7.0004 
+},
+{
+ "name": "Forgive",
+"size":     16,
+"GoldsteinScale": 7.0026 
+},
+{
+ "name": "Sign formal agreement",
+"size":   1277,
+"GoldsteinScale": 8.0215 
+} 
+] 
+},
+{
+ "name": "ENGAGE IN MATERIAL COOPERATION",
+"GoldsteinScale":   6.84,
+"size":    636,
+"children": [
+ {
+ "name": "Engage in material cooperation, not specified below",
+"size":    489,
+"GoldsteinScale": 6.0462 
+},
+{
+ "name": "Cooperate economically",
+"size":     88,
+"GoldsteinScale": 6.4004 
+},
+{
+ "name": "Cooperate militarily",
+"size":     45,
+"GoldsteinScale": 7.4178 
+},
+{
+ "name": "Engage in judicial cooperation",
+"size":      5,
+"GoldsteinScale": 7.4267 
+},
+{
+ "name": "Share intelligence or information",
+"size":      9,
+"GoldsteinScale": 7.0494 
+} 
+] 
+},
+{
+ "name": "PROVIDE AID",
+"GoldsteinScale":    7.6,
+"size":    475,
+"children": [
+ {
+ "name": "Provide aid, not specified below",
+"size":    113,
+"GoldsteinScale": 7.0306 
+},
+{
+ "name": "Provide economic aid",
+"size":     94,
+"GoldsteinScale": 7.4061 
+},
+{
+ "name": "Provide military aid",
+"size":    178,
+"GoldsteinScale": 8.3291 
+},
+{
+ "name": "Provide humanitarian aid",
+"size":     30,
+"GoldsteinScale": 7.4019 
+},
+{
+ "name": "Provide military protection or peacekeeping",
+"size":     42,
+"GoldsteinScale":  8.527 
+},
+{
+ "name": "Grant asylum",
+"size":     18,
+"GoldsteinScale": 7.0041 
+} 
+] 
+},
+{
+ "name": "YIELD",
+"GoldsteinScale": 6.9474,
+"size":   1382,
+"children": [
+ {
+ "name": "Yield, not specified below ",
+"size":    353,
+"GoldsteinScale": 5.0084 
+},
+{
+ "name": "Ease administrative sanctions, not specified below",
+"size":     19,
+"GoldsteinScale": 5.0017 
+},
+{
+ "name": "Ease political dissent ",
+"size":      4,
+"GoldsteinScale": 5.0395 
+},
+{
+ "name": "Accede to requests or demands for political reform not specified below",
+"size":     19,
+"GoldsteinScale": 5.0266 
+},
+{
+ "name": "Return, release, not specified below",
+"size":     86,
+"GoldsteinScale": 7.0091 
+},
+{
+ "name": "Ease economic sanctions, boycott, embargo",
+"size":      6,
+"GoldsteinScale": 7.0233 
+},
+{
+ "name": "Allow international involvement not specified below",
+"size":     15,
+"GoldsteinScale": 9.0031 
+},
+{
+ "name": "De-escalate military engagement",
+"size":     12,
+"GoldsteinScale": 9.0289 
+},
+{
+ "name": "Ease state of emergency or martial law",
+"size":      9,
+"GoldsteinScale":  5.047 
+},
+{
+ "name": "Accede to demands for change in leadership",
+"size":    390,
+"GoldsteinScale": 5.0242 
+},
+{
+ "name": "Accede to demands for rights",
+"size":      2,
+"GoldsteinScale": 5.0025 
+},
+{
+ "name": "Accede to demands for change in institutions, regime",
+"size":      2,
+"GoldsteinScale": 5.0349 
+},
+{
+ "name": "Return, release person(s)",
+"size":    196,
+"GoldsteinScale": 7.0448 
+},
+{
+ "name": "Return, release property",
+"size":      5,
+"GoldsteinScale": 7.0351 
+},
+{
+ "name": "Receive deployment of peacekeepers",
+"size":      5,
+"GoldsteinScale": 9.0401 
+},
+{
+ "name": "Declare truce, ceasefire",
+"size":     64,
+"GoldsteinScale": 9.0253 
+},
+{
+ "name": "Ease military blockade",
+"size":      4,
+"GoldsteinScale": 9.0008 
+},
+{
+ "name": "Demobilize armed forces",
+"size":      9,
+"GoldsteinScale": 9.0272 
+},
+{
+ "name": "Retreat or surrender militarily",
+"size":    182,
+"GoldsteinScale": 10.015 
+} 
+] 
+},
+{
+ "name": "INVESTIGATE",
+"GoldsteinScale":     -2,
+"size":    406,
+"children": [
+ {
+ "name": "Investigate, not specified below",
+"size":    391,
+"GoldsteinScale": -1.9639 
+},
+{
+ "name": "Investigate crime, corruption",
+"size":      1,
+"GoldsteinScale": -1.9781 
+},
+{
+ "name": "Investigate military action",
+"size":     14,
+"GoldsteinScale": -1.9613 
+} 
+] 
+},
+{
+ "name":  "DEMAND" ,
+"GoldsteinScale": -4.6154,
+"size":    839,
+"children": [
+ {
+ "name": "Demand, not specified below",
+"size":    615,
+"GoldsteinScale": -4.9582 
+},
+{
+ "name": "Demand information, investigation",
+"size":     20,
+"GoldsteinScale": -4.9924 
+},
+{
+ "name": "Demand policy support",
+"size":      4,
+"GoldsteinScale": -4.9695 
+},
+{
+ "name": "Demand mediation",
+"size":      7,
+"GoldsteinScale": -4.9544 
+},
+{
+ "name": "Demand withdrawal",
+"size":     14,
+"GoldsteinScale": 0.033158 
+},
+{
+ "name": "Demand judicial cooperation",
+"size":      5,
+"GoldsteinScale": -4.9652 
+},
+{
+ "name": "Demand intelligence cooperation",
+"size":     18,
+"GoldsteinScale": -4.9595 
+},
+{
+ "name": "Demand military protection or peacekeeping",
+"size":      5,
+"GoldsteinScale": -4.9611 
+},
+{
+ "name": "Demand change in leadership",
+"size":     72,
+"GoldsteinScale": -4.9621 
+},
+{
+ "name": "Demand rights",
+"size":      1,
+"GoldsteinScale": -4.9902 
+},
+{
+ "name": "Demand change in institutions, regime",
+"size":     43,
+"GoldsteinScale": -4.9988 
+},
+{
+ "name": "Demand release of persons or property",
+"size":     18,
+"GoldsteinScale": -4.9574 
+},
+{
+ "name": "Demand de-escalation of military engagement",
+"size":     17,
+"GoldsteinScale": -4.9548 
+} 
+] 
+},
+{
+ "name": "DISAPPROVE",
+"GoldsteinScale":     -2,
+"size":   2795,
+"children": [
+ {
+ "name": "Disapprove, not specified below",
+"size":    616,
+"GoldsteinScale": -1.9711 
+},
+{
+ "name": "Criticize or denounce ",
+"size":    746,
+"GoldsteinScale": -1.9829 
+},
+{
+ "name": "Accuse, not specified below",
+"size":   1190,
+"GoldsteinScale": -1.9778 
+},
+{
+ "name": "Rally opposition against",
+"size":     12,
+"GoldsteinScale": -1.9876 
+},
+{
+ "name": "Complain officially ",
+"size":     72,
+"GoldsteinScale": -1.9921 
+},
+{
+ "name": "Bring lawsuit against ",
+"size":     11,
+"GoldsteinScale": -1.9988 
+},
+{
+ "name": "Accuse of crime, corruption",
+"size":     11,
+"GoldsteinScale": -1.9757 
+},
+{
+ "name": "Accuse of human rights abuses",
+"size":     11,
+"GoldsteinScale": -1.9516 
+},
+{
+ "name": "Accuse of aggression",
+"size":     57,
+"GoldsteinScale": -1.9792 
+},
+{
+ "name": "Accuse of war crimes",
+"size":     67,
+"GoldsteinScale": -1.9645 
+},
+{
+ "name": "Accuse of espionage, treason",
+"size":      2,
+"GoldsteinScale": -1.9814 
+} 
+] 
+},
+{
+ "name":  "REJECT",
+"GoldsteinScale": -4.3333,
+"size":    923,
+"children": [
+ {
+ "name": "Reject, not specified below",
+"size":    626,
+"GoldsteinScale": -3.9927 
+},
+{
+ "name": "Reject request or demand for material aid, not specified below",
+"size":     11,
+"GoldsteinScale":  -3.97 
+},
+{
+ "name": "Reject request or demand for political reform, not specified below",
+"size":      3,
+"GoldsteinScale": -3.9757 
+},
+{
+ "name": "Refuse to yield, not specified below",
+"size":     23,
+"GoldsteinScale": -3.998 
+},
+{
+ "name": "Reject proposal to meet, discuss, or negotiate",
+"size":    157,
+"GoldsteinScale": -4.9802 
+},
+{
+ "name": "Reject plan, agreement to settle dispute",
+"size":     13,
+"GoldsteinScale": -4.9685 
+},
+{
+ "name": "Defy norms, law",
+"size":     19,
+"GoldsteinScale": -4.9524 
+},
+{
+ "name": "Veto",
+"size":     52,
+"GoldsteinScale": -4.9834 
+},
+{
+ "name": "Reject economic cooperation",
+"size":      1,
+"GoldsteinScale": -3.9647 
+},
+{
+ "name": "Reject request for change in leadership",
+"size":      2,
+"GoldsteinScale": -3.9726 
+},
+{
+ "name": "Refuse to release persons or property",
+"size":      4,
+"GoldsteinScale": -3.9569 
+},
+{
+ "name": "Refuse to de-escalate military engagement",
+"size":     12,
+"GoldsteinScale": -3.9789 
+} 
+] 
+},
+{
+ "name":  "THREATEN",
+"GoldsteinScale": -6.3273,
+"size":    566,
+"children": [
+ {
+ "name": "Threaten, not specified below",
+"size":    339,
+"GoldsteinScale": -4.3502 
+},
+{
+ "name": "Threaten non-force, not specified below",
+"size":      9,
+"GoldsteinScale": -5.7724 
+},
+{
+ "name": "Threaten political dissent, protest",
+"size":     27,
+"GoldsteinScale": -5.772 
+},
+{
+ "name": "Threaten to halt international involvement (non-mediation)",
+"size":      4,
+"GoldsteinScale": -6.9728 
+},
+{
+ "name": "Threaten with violent repression",
+"size":      2,
+"GoldsteinScale": -6.9785 
+},
+{
+ "name": "Threaten to use military force, not specified below",
+"size":    140,
+"GoldsteinScale": -6.9807 
+},
+{
+ "name": "Give ultimatum",
+"size":     18,
+"GoldsteinScale": -6.9865 
+},
+{
+ "name": "Threaten to boycott, embargo, or sanction",
+"size":      4,
+"GoldsteinScale": -5.7565 
+},
+{
+ "name": "Threaten to reduce or break relations",
+"size":      2,
+"GoldsteinScale": -5.7775 
+},
+{
+ "name": "Threaten unconventional violence ",
+"size":      2,
+"GoldsteinScale": -6.9503 
+},
+{
+ "name": "Threaten conventional attack  ",
+"size":     19,
+"GoldsteinScale": -6.9711 
+} 
+] 
+},
+{
+ "name": "PROTEST",
+"GoldsteinScale": -6.7857,
+"size":    595,
+"children": [
+ {
+ "name": "Engage in political dissent, not specified below",
+"size":     50,
+"GoldsteinScale": -6.499 
+},
+{
+ "name": "Demonstrate or rally",
+"size":    409,
+"GoldsteinScale": -6.4985 
+},
+{
+ "name": "Conduct hunger strike, not specified below",
+"size":     10,
+"GoldsteinScale": -6.4808 
+},
+{
+ "name": "Conduct strike or boycott, not specified below",
+"size":     12,
+"GoldsteinScale": -6.4944 
+},
+{
+ "name": "Obstruct passage, block",
+"size":     10,
+"GoldsteinScale": -7.4727 
+},
+{
+ "name": "Protest violently, riot",
+"size":     21,
+"GoldsteinScale": -7.4809 
+},
+{
+ "name": "Demonstrate for leadership change",
+"size":     83,
+"GoldsteinScale": -6.4811 
+} 
+] 
+},
+{
+ "name":"EXHIBIT FORCE POSTURE" ,
+"GoldsteinScale":   -7.2,
+"size":    201,
+"children": [
+ {
+ "name": "Demonstrate military or police power, not specified below",
+"size":     88,
+"GoldsteinScale": -7.1716 
+},
+{
+ "name": "Increase police alert status",
+"size":      4,
+"GoldsteinScale": -7.1659 
+},
+{
+ "name": "Increase military alert status",
+"size":     12,
+"GoldsteinScale": -7.1807 
+},
+{
+ "name": "Mobilize or increase police power",
+"size":      3,
+"GoldsteinScale": -7.1776 
+},
+{
+ "name": "Mobilize or increase armed forces ",
+"size":     94,
+"GoldsteinScale": -7.1926 
+} 
+] 
+},
+{
+ "name":  "REDUCE RELATIONS",
+"GoldsteinScale": -5.8857,
+"size":    425,
+"children": [
+ {
+ "name": "Reduce relations, not specified below",
+"size":    181,
+"GoldsteinScale": -3.9898 
+},
+{
+ "name": "Reduce or break diplomatic relations",
+"size":     87,
+"GoldsteinScale": -3.9545 
+},
+{
+ "name": "Reduce or stop aid, not specified below",
+"size":      1,
+"GoldsteinScale": -5.5912 
+},
+{
+ "name": "Impose embargo, boycott, or sanctions",
+"size":     34,
+"GoldsteinScale": -7.9609 
+},
+{
+ "name": "Halt negotiations",
+"size":     68,
+"GoldsteinScale": -6.999 
+},
+{
+ "name": "Expel or withdraw, not specified below",
+"size":     52,
+"GoldsteinScale": -6.9593 
+},
+{
+ "name": "Reduce or stop humanitarian assistance",
+"size":      2,
+"GoldsteinScale": -5.5949 
+} 
+] 
+},
+{
+ "name": "COERCE",
+"GoldsteinScale":  -6.55,
+"size":    839,
+"children": [
+ {
+ "name": "Coerce, not specified below ",
+"size":     18,
+"GoldsteinScale": -6.9684 
+},
+{
+ "name": "Seize or damage property, not specified below",
+"size":      3,
+"GoldsteinScale": -9.1741 
+},
+{
+ "name": "Impose administrative sanctions, not specified below",
+"size":     63,
+"GoldsteinScale": -4.9834 
+},
+{
+ "name": "Arrest, detain, or charge with legal action ",
+"size":    529,
+"GoldsteinScale": -4.9544 
+},
+{
+ "name": "Expel or deport individuals",
+"size":     67,
+"GoldsteinScale": -4.9628 
+},
+{
+ "name": "Use tactics of violent repression  ",
+"size":     15,
+"GoldsteinScale": -8.9938 
+},
+{
+ "name": "Confiscate property",
+"size":      8,
+"GoldsteinScale": -9.1645 
+},
+{
+ "name": "Destroy property",
+"size":     35,
+"GoldsteinScale": -9.1723 
+},
+{
+ "name": "Impose restrictions on political freedoms  ",
+"size":     10,
+"GoldsteinScale": -4.9774 
+},
+{
+ "name": "Ban political parties or politicians",
+"size":      2,
+"GoldsteinScale": -4.9944 
+},
+{
+ "name": "Impose curfew",
+"size":     10,
+"GoldsteinScale": -4.952 
+},
+{
+ "name": "Impose state of emergency or martial law",
+"size":     79,
+"GoldsteinScale": -4.9887 
+} 
+] 
+},
+{
+ "name": "ASSAULT",
+"GoldsteinScale": -9.3125,
+"size":    287,
+"children": [
+ {
+ "name": "Use unconventional violence, not specified below",
+"size":     55,
+"GoldsteinScale": -8.9667 
+},
+{
+ "name": "Abduct, hijack, or take hostage ",
+"size":    117,
+"GoldsteinScale": -8.9698 
+},
+{
+ "name": "Physically assault, not specified below",
+"size":     17,
+"GoldsteinScale": -9.4864 
+},
+{
+ "name": "Conduct suicide, car, or other non-military bombing, not spec below",
+"size":      7,
+"GoldsteinScale": -9.9896 
+},
+{
+ "name": "Attempt to assassinate",
+"size":     42,
+"GoldsteinScale": -7.9899 
+},
+{
+ "name": "Assassinate ",
+"size":     27,
+"GoldsteinScale": -9.9892 
+},
+{
+ "name": "Torture",
+"size":     21,
+"GoldsteinScale": -8.9734 
+},
+{
+ "name": "Carry out car bombing",
+"size":      1,
+"GoldsteinScale": -9.9596 
+} 
+] 
+},
+{
+ "name":  "FIGHT" ,
+"GoldsteinScale": -9.7857,
+"size":   1078,
+"children": [
+ {
+ "name": "Use conventional military force, not specified below",
+"size":    706,
+"GoldsteinScale": -9.9832 
+},
+{
+ "name": "Impose blockade, restrict movement ",
+"size":      9,
+"GoldsteinScale": -9.4782 
+},
+{
+ "name": "Occupy territory",
+"size":    144,
+"GoldsteinScale": -9.4524 
+},
+{
+ "name": "Fight with small arms and light weapons",
+"size":    152,
+"GoldsteinScale": -9.9782 
+},
+{
+ "name": "Fight with artillery and tanks",
+"size":     22,
+"GoldsteinScale": -9.9915 
+},
+{
+ "name": "Employ aerial weapons",
+"size":     40,
+"GoldsteinScale": -9.9743 
+},
+{
+ "name": "Violate ceasefire ",
+"size":      5,
+"GoldsteinScale": -9.4782 
+} 
+] 
+},
+{
+ "name":  "USE UNCONVENTIONAL MASS VIOLENCE",
+"GoldsteinScale":    -10,
+"size":     73,
+"children": [
+ {
+ "name": "Engage in ethnic cleansing",
+"size":     73,
+"GoldsteinScale": -9.9867 
+} 
+] 
+}]}

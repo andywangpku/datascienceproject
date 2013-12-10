@@ -1,0 +1,278 @@
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en">
+   <!--<![endif]-->
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+      <title>GDELT PROJECT</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+      <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+      <script src="js/libs/modernizr-2.0.6.min.js"></script> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <script src="js/queryLoader.js"></script> 
+       <script src="js/plugins.js"></script>  
+      <script defer="" src="js/commons.js"></script>  
+      <script defer="" src="js/en.js"></script>
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+ 		<script src="http://d3js.org/topojson.v1.min.js"></script>
+
+   </head>
+
+   <body data-twttr-rendered="true">
+      <div id="container" style="display: block;">
+         <div id="main" role="main">
+            <div id="intro" style="height: 802px; width: 1440px;">
+               <div class="content" style="padding-top: 240.6px;">
+                  <h1>GDELT project presentation<br>group 11</h1>
+                  <div class="def" style="font-size=10pt; opacity: 0.6;" align="right">
+                     <b>GROUP MEMBERS:</b><br><i>xueting chen</i><br><i>xingyu zhao</i><br><i>yifan zhang</i><br><i>xiao wang</i><br><i>peng wan</i> 
+                  </div>
+               </div>
+            </div>
+            <div id="video" style="height: 802px; width: 1440px;">
+               <div class="content" style="padding-top: 80.2px;">
+                  <div class="text">
+                     <p class="title">DATA AND SCOPE</p>
+                     <div style="font-size: 12pt; ">
+                     	<p>The Global Database of Events, Language, and Tone (GDELT) is a database on human societal-scale behaviour and beliefs across all countries of the world since 1979.</p>
+                     	<p>GDELT is comprehensive and yet has a precision down to city level, and provides daily updates to make it almost real time.</p>
+                        <p>This is a case study into Georgia. We want to leverage big data analysis and visualizaiotn tools, to look for potential insights in international relationship and domestic events. </p>
+                        <p>This project serves as an experiment of GDELT data in international affairs related research.</p>
+
+                     </div>
+                  </div>
+                  <div class="video">
+                  
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg"><g></g><g transform="translate(480,300)scale(1.0041841268539429,1.0041841268539429)"><text text-anchor="middle" transform="translate(-132,74)rotate(2)" style="font-size: 100px; opacity: 1; font-family: Impact; fill: #ce6dbd;">GDELT</text><text text-anchor="middle" transform="translate(225,-124)rotate(88)" style="font-size: 64px; opacity: 1; font-family: Impact; fill: #5254a3;">TimeSeries</text><text text-anchor="middle" transform="translate(109,33)rotate(88)" style="font-size: 52px; opacity: 1; font-family: Impact; fill: #6b6ecf;">ARMA</text><text text-anchor="middle" transform="translate(52,74)rotate(88)" style="font-size: 52px; opacity: 1; font-family: Impact; fill: #9c9ede;">AR</text><text text-anchor="middle" transform="translate(-189,136)rotate(88)" style="font-size: 37px; opacity: 1; font-family: Impact; fill: #637939;">RStudio</text><text text-anchor="middle" transform="translate(-61,-111)rotate(2)" style="font-size: 37px; opacity: 1; font-family: Impact; fill: #8ca252;">JavaScript</text><text text-anchor="middle" transform="translate(15,40)rotate(88)" style="font-size: 37px; opacity: 1; font-family: Impact; fill: #b5cf6b;">D3JS</text><text text-anchor="middle" transform="translate(16,133)rotate(2)" style="font-size: 37px; opacity: 1; font-family: Impact; fill: #cedb9c;">AssociativeRules</text><text text-anchor="middle" transform="translate(-237,44)rotate(88)" style="font-size: 10px; opacity: 1; font-family: Impact; fill: #8c6d31;"></text><text text-anchor="middle" transform="translate(157,45)rotate(88)" style="font-size: 80px; opacity: 1; font-family: Impact; fill: #393b79;">ToneAnalysis</text><text text-anchor="middle" transform="translate(-142,-44)rotate(2)" style="font-size: 80px; opacity: 1; font-family: Impact; fill: #de9ed6;">DataVisualization</text></g></svg>                  </div>
+               </div>
+            </div>
+            <div id="presentation" style="height: 802px; width: 1440px;">
+               <div class="content" style="padding-top: 50.2px;">
+                  <div class="text">
+                     <p class="title">Georgia Events<br>Overview</p>
+                     <div style="font-size: 12pt; ">
+                     	<p>In GDELT database,events are encoded into root categories and sub-categories.</p>
+                     	<p>We gathered and cleaned data about Georgia. There are about sixth thousand events in total, falls into 20 root categories and 194 sub-categories.<p>
+                     	<dl>
+							<dt>sunburst chart</dt>
+								<dd>- inner ring is root category</dd>
+								<dd>- outer ring is sub category</dd>
+								<dd>- proportion shows relative number of events</dd>
+								<dd>- color means event sentiment (green for positive, red for negative, white for neutral)</dd>
+						</dl>
+                     </div>
+                  </div>
+                  <div id="mycanvas" class="sunburstchart">
+                           <script src="sunburst.js"></script>
+                  </div>
+               </div>
+            </div>
+            <div id="timeline" style="height: 802px; width: 1440px;">
+               <div class="content" style="padding-top: 80.2px;">
+                  <div class="text "style="font-size: 12pt; ">
+                     <p class="title">Temporal trend since 1990s</p>
+                     <p> The stream chart below shows monthly numbers for the most positive/ negative events.</p>
+                  </div>
+                  <div class="newtimeline">
+ 						<div class="streamchart">
+						</div>
+                  	<script src="streamchart.js"></script>
+                  </div>
+               </div>
+            </div>
+            <div id="works" style="height: 802px; width: 1440px;">
+               <div class="content" style="padding-top: 30.2px;">
+                  <div class="text">
+                     <p class="title">International Relationship<br>history since 1997</p>
+                     <div style="font-size: 12pt; ">
+                        <p>A world map animation on Georgia's bilateral international relationships.</p>
+                        <dl>
+							<dt>heat-map for world</dt>
+								<dd>- from 1997 to 2012</dd>
+								<dd>- red for negative relations, green for good ones.</dd>
+							<dt>important events</dt>
+								<dd>- 1998 war in Abkhazia</dd>
+								<dd>- 2008 war in South Ossetia</dd>
+								<dd>- 2009 protest in Tbilisi</dd>
+						</dl>
+                        <p>You can see some events lead to tensions between Georgia and other nations.</p>
+                  
+                     </div>
+                  </div>
+                  <div id="worldmap" class="worldmap">
+                  <script src="world.js"></script>
+                  </div>
+               </div>
+            </div>
+            <div id="team" style="height: 802px; width: 1440px;">
+               <div class="content" style="padding-top: 80.2px;">
+                  <div class="text">
+                     <p class="title">event prediction</p>
+                     <div style="font-size: 12pt; ">
+                     	<p>Can we predict what will happen in the future?</p>
+                     	<p>We want to predict for some of the most important events, such as fights, protests.</p>
+                     	<dl>
+							<dt>bar chart for fights since 1998	</dt>
+								<dd>- bar height means number of fights in a month</dd>
+								<dd>- upper chart is reality, lower chart is prediction</dd>
+								<dd>- green means correct direction,red means wrong one</dd>
+						</dl>                
+                    	<p>For any event, to predict the exact quantity is very difficult. Predicting the trend is good enough for better preparation on bad events and give UN officials time to step in.</p>
+                    	<p>"Correct direction" means we successfully predicted the increment or decrement of fights.</p>
+                    	<p>Our model is an ARMA(2,3) time series model. We used previous months data to predict for the next month.</p>
+  
+                  	 </div>
+                  </div>
+                  <div id="eventpred" class="eventpred">
+                      <svg class="eventchart"></svg>
+                      <script src="event.js"></script>
+                 
+                  </div>
+                  <div id="eventpred2" class="eventpred">
+                      <svg class="eventchart2"></svg>
+                      <script src="event2.js"></script>
+                 
+                  </div>
+               </div>
+            </div>
+            <div id="thoughts" style="height: 802px; width: 1440px;">
+               <div class="content" style="padding-top: 10px;">
+   				  <div class="text">
+                     <p class="title">events relationship</p>
+                     <div style="font-size: 12pt; ">
+                     	<p>If some event happens more frequently, which other event will happen more?"</p>
+                     	<p>This is about the internal relationship of events and the way politics works.</p>
+                    	<dl>
+							<dt>heat-map calendar from 2008 to 2010</dt>
+								<dd>- four kinds of events</dd>
+								<dd>- darker color means more events that day</dd>
+								<dd>- pattern of coexistence of events</dd>
+						</dl>                
+                    	<p>Our approach to discover this knowledge is based on aproiri algorithm, which is to learn association rules from data.</p>
+                   	 </div>
+                  </div>
+       
+   				  <div class="cal" id="cal30">
+				  </div>
+				  <div class="cal" id="cal40">
+				  </div>
+				  <div class="cal" id="cal42">
+				  </div>
+				  <div class="cal" id="cal43">
+				  </div>
+				  <div class="caltrend" style="font-size: 15pt; ">
+				  <dl>
+							<dt> 2008 - 2010</dt>
+								<dd><font color="darkblue">Express intent to cooperate</font></dd>
+								<dd><font color="wheat">Consult</font></dd>
+								<dd><font color="pink">Make a visit</font></dd>
+								<dd><font color="turquoise">Host a visit</font></dd>
+						</dl>
+           
+				  </div>
+				<script src="cal.js"></script>
+
+               </div>
+            </div>
+            <div id="contact" style="height: 802px; width: 1440px;">        
+               <div class="content1" style="padding-top: 80px;">
+               		 <div class="text1">
+                     	<p class="title">Tone Analysis</p>
+                     <div style="font-size: 12pt; ">
+                     	<p>"Tone" of an event is about its sentiment, importance and impact.</p>
+                     	<p>Can we predict the average tone ( aggregated public opinions ) for the next month?</p>
+                     	<p>Tone analysis and prediction can help officials to better understand public opinions and try to prepare for potential social unrest.</p>
+                    	<p>We created a new feature to describe the tone and analysed monthly average tone since 2008</p>
+                    	<dl>
+							<dt>line chart</dt>
+								<dd>- bold line is actual average tone</dd>
+								<dd>- shaded area is margin between prediction and reality</dd>
+								<dd>- green for underestimate, orange for overestimate</dd>
+							<dt>bar chart</dt>
+								<dd>- monthly increment and decrement in average tone</dd>
+								<dd>- upper one is actual, lower one is predicted</dd>
+								<dd>- correct in direction ~ 70%</dd>
+						</dl>                
+                     <p>We built a time series model with auto regression, using previous 6 months tone to predict for the next month.</p>
+                   	 </div>
+                  </div>
+                	<div class="difline" id="difline">
+                	</div>
+                	<script src="difline.js"></script>
+                	<div class="tone" id="tonetrue">
+                	</div>
+                	<div class="tone" id="tonepred">
+                	</div>
+                	
+                	<script src="tonebar.js"></script>
+
+               </div>
+            </div>
+         </div>
+         <div id="navigation">
+            <div class="opacity" style="width: 50px; height: 6416px;"></div>
+            <div class="buttons">
+               <div class="intro page" style="width: 50px; height: 50px;">
+                  <p>1</p>
+                  <div style="height: 50px; left: -200px;">
+                     <p>Introduction</p>
+                  </div>
+               </div>
+               <div class="video page" style="width: 50px; height: 50px;">
+                  <p>2</p>
+                  <div style="height: 50px; left: -200px;">
+                     <p>Project background</p>
+                  </div>
+               </div>
+               <div class="presentation page" style="width: 50px; height: 50px;">
+                  <p>3</p>
+                  <div style="height: 50px; left: -200px;">
+                     <p>Coverage analysis I</p>
+                  </div>
+               </div>
+               <div class="timeline page" style="width: 50px; height: 50px;">
+                  <p>4</p>
+                  <div style="height: 50px; left: -200px;">
+                     <p>Coverage analysis II</p>
+                  </div>
+               </div>
+               <div class="works page" style="width: 50px; height: 50px;">
+                  <p>5</p>
+                  <div style="height: 50px; left: -200px;">
+                     <p>International Relationship</p>
+                  </div>
+               </div>
+               <div class="team page" style="width: 50px; height: 50px;">
+                  <p>6</p>
+                  <div style="height: 50px; left: -200px;">
+                     <p>Event Analysis I</p>
+                  </div>
+               </div>
+               <div class="thoughts page" style="width: 50px; height: 50px;">
+                  <p>7</p>
+                  <div style="height: 50px; left: -200px;">
+                     <p>Event Analysis II</p>
+                  </div>
+               </div>
+               <div class="contact page" style="width: 50px; height: 50px;">
+                  <p>8</p>
+                  <div style="height: 50px; left: -200px;">
+                     <p>Tone Analysis</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--! end of #container -->
+      <div class="tool-tip"></div>
+      <div id="hover-table"></div>
+      <script>    window._gaq = [['_setAccount','UA-19332251-1'],['_trackPageview'],['_trackPageLoadTime']];    Modernizr.load({      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'    });  </script>  
+      <!--[if lt IE 7 ]>    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>  <![endif]-->
+      <script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-2.newrelic.com","fd2800ca09","2444240","NFcGZRYCXUBVABEIWQ0dMUMNTFZdGwoLBVMbHBRZFA==",0,1,new Date().getTime(),"","","","",""]);</script>
+      <div style="height: 0px; width: 0px; overflow: hidden;"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/table-big-news.png"><img src="http://dataveyes.com/img/table-news.png"><img src="http://dataveyes.com/img/works-arrows.png"><img src="http://dataveyes.com/img/works-arrows.png"><img src="http://dataveyes.com/img/border-works.jpg"><img src="http://dataveyes.com/img/button-star-work.jpg"><img src="http://dataveyes.com/img/button-work.jpg"><img src="http://dataveyes.com/img/button-work.jpg"><img src="http://dataveyes.com/img/button-work.jpg"><img src="http://dataveyes.com/img/button-work.jpg"><img src="http://dataveyes.com/img/button-work.jpg"><img src="http://dataveyes.com/img/twitter-bird.png"><img src="http://dataveyes.com/img/twitter-bird.png"><img src="http://dataveyes.com/img/twitter-bird.png"><img src="http://dataveyes.com/img/twitter-bird.png"><img src="http://dataveyes.com/img/read-article.png"><img src="http://dataveyes.com/img/read-article.png"><img src="http://dataveyes.com/img/read-article.png"><img src="http://dataveyes.com/img/read-article.png"><img src="http://dataveyes.com/img/table-tool-tip.png"></div>
+      
+      <script type="text/javascript" src="http://js-agent.newrelic.com/nr-100.js"></script>
+	  <script type="text/javascript" src="http://beacon-2.newrelic.com/1/fd2800ca09?a=2444240&be=262&qt=0&ap=0&dc=316&fe=7002&to=NFcGZRYCXUBVABEIWQ0dMUMNTFZdGwoLBVMbHBRZFA%3D%3D&v=42&jsonp=NREUM.setToken&perf=%7B%22timing%22%3A%7B%22of%22%3A1385434146847%2C%20%22n%22%3A0%2C%20%22dl%22%3A261%2C%20%22di%22%3A578%2C%20%22ds%22%3A757%2C%20%22de%22%3A1520%2C%20%22dc%22%3A7258%2C%20%22l%22%3A7258%2C%20%22le%22%3A7270%2C%20%22f%22%3A0%2C%20%22dn%22%3A2%2C%20%22dne%22%3A2%2C%20%22c%22%3A2%2C%20%22ce%22%3A124%2C%20%22rq%22%3A124%2C%20%22rp%22%3A257%2C%20%22rpe%22%3A267%7D%2C%20%22navigation%22%3A%7B%7D%7D"></script></body>
+</html>
